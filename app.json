@@ -2,6 +2,7 @@
   "expo": {
     "name": "house-service",
     "slug": "house-service",
+    "scheme": "house-service",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kayode_olowo.houseservice"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34020db9-151f-4b14-b504-a838fc06f14a"
+      }
     }
   }
 }
